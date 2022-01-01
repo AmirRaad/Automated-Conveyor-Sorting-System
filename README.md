@@ -1,6 +1,6 @@
 ## Automated Conveyor Sorting System
 A project that was made for the Peripheral Units Lab, [Damascus University](http://www.damascusuniversity.edu.sy/index.php?lang=2).
-###Introduction
+### Introduction
 Our system can sort multiple products depending on certain quality standards, and we used Pepsi Cans as an example product.
 The most challenging part was the design of the conveyor. We made a simple wooden structure to hold the conveyor mechanism and other components and sensors.
 ### Hardware Parts:
@@ -9,7 +9,7 @@ The most challenging part was the design of the conveyor. We made a simple woode
 - MG995 Continuous Servo
 - 2× Laser Beam Limit Switch (using LDRs and  laser pointers)
 - Mobile Camera for Computer Vision
-####Camera
+#### Camera
 Vision was done by using Mobile Camera  connected to PC using [IP Webcam App](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en&gl=US), and fixed directly above the conveyor belt.
 
 ### Software:
