@@ -25,7 +25,7 @@ For detecting our circular product we used [Circle Hough Transform](https://en.w
 
 The next step was to detect the hole in the can.
 
-For the first version of our code we used thresholding method by taking the balck color range in HSV color sapce, which represents the hole, and If it exists, it means that the box is rejected, otherwise it is accepted.
+For the first version of our code we used thresholding method by taking the balck color range in HSV color sapce, which represents the hole, and If it exists, it means that the can is rejected, otherwise it is accepted.
 However, this method caused some loss in accuracy as a result of being severely affected by the light noise and the difference in the degree of light.
 
 So in the second version we used a more effective method called [Blob Detection](https://docs.opencv.org/3.4/d0/d7a/classcv_1_1SimpleBlobDetector.html) To find the hole that represents connected pixels in the image that share some common property.
