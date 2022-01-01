@@ -1,23 +1,23 @@
-## Automated Conveyor Sorting System
+# Automated Conveyor Sorting System
 A project that was made for the Peripheral Units Lab, [Damascus University](http://www.damascusuniversity.edu.sy/index.php?lang=2).
-### Introduction
+## Introduction
 Our system can sort multiple products depending on certain quality standards, and we used Pepsi Cans as an example product.
 The most challenging part was the design of the conveyor. We made a simple wooden structure to hold the conveyor mechanism and other components and sensors.
-### Hardware Parts:
+## Hardware Parts:
 - Arduino Uno Microcontroller
 - MG995 Servo 180°
 - MG995 Continuous Servo
 - 2× Laser Beam Limit Switch (using LDRs and  laser pointers)
 - Mobile Camera for Computer Vision
-#### Camera
+### Camera
 Vision was done by using Mobile Camera  connected to PC using [IP Webcam App](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en&gl=US), and fixed directly above the conveyor belt.
 
-### Software:
+## Software:
 We mainly used [Python](https://www.python.org) for:
 - Computer Vision process using [OpenCV](https://opencv.org)
 - Designing the GUI
 - Setting up the communication between Arduino, Mobile Camera and the User Interface
-#### Vision
+### Vision
 The main concept was to detect the Pepsi Can then check if it is open or not.
 For detecting our circular product we used [Circle Hough Transform](https://en.wikipedia.org/wiki/Circle_Hough_Transform) and choose the largest circle detected so this is our can.
 
@@ -32,7 +32,7 @@ So in the second version we used a more effective method called [Blob Detection]
 
 ![](Images/img2.jpg)
 
-#### GUI
+### GUI
 The user interface was built with [PyQt5](https://en.wikipedia.org/wiki/PyQt) to help the project perform its functions in an easy manner for the user
 
 ![](Images/img3.jpg)
