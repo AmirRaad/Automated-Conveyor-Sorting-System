@@ -36,3 +36,6 @@ So in the second version we used a more effective method called [Blob Detection]
 The user interface was built with [PyQt5](https://en.wikipedia.org/wiki/PyQt) to help the project perform its functions in an easy manner for the user
 
 ![](Images/img3.jpg)
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
